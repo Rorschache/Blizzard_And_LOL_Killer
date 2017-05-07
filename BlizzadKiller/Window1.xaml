@@ -1,0 +1,13 @@
+﻿<Window x:Class="BlizzadKiller.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BlizzadKiller"
+        mc:Ignorable="d"
+        Title="Window1" Height="100" Width="240" WindowStartupLocation="CenterScreen">
+    <Grid Background="#FFE85555">
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="57,23,0,0" TextWrapping="Wrap" Text="You Survived!" VerticalAlignment="Top" Background="#FFE85555" Foreground="White" FontSize="18"/>
+
+    </Grid>
+</Window>
